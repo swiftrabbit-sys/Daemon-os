@@ -4,6 +4,8 @@
 #include "main_core_utils.h"
 #include "required_core.h"
 
+
+
 using namespace std;
 
 int main(){
@@ -57,6 +59,9 @@ if(os_input == "minfetch"){
 
 
 // applications - others
+if(os_input == "bible"){
+	
+}
 if(os_input == "dev_cons"){
 
 	system("python3 developer_console.py");
