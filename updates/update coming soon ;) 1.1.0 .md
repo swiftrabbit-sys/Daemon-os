@@ -29,8 +29,8 @@
 - **Advanced Command Line Interface**: Full readline-style editing with Lua
 - **Dynamic Prompt Customization**: Configure prompts with Lua functions
 - **Built-in Script Engine**: Execute Lua code directly in command line
-- **Smart Auto-completion**: Context-aware completion using Lua patterns
-- **Command History**: Persistent history with Lua-based search and filtering
+
+
 
 ### 🎨 **Customization Engine**
 ```lua
@@ -63,29 +63,9 @@ end
 
 ## 🛠️ **INSTALLATION**
 
-### Automatic Installation (Recommended)
 ```bash
-# Navigate to DaemonOS directory
-cd /path/to/DaemonOS
-
-# Run update script
-./update.sh
-
-# LuaTerm will be compiled and installed automatically
+# just download this git folder bro
 ```
-
-### Manual Installation
-```bash
-# Ensure dependencies are met
-sudo apt install lua5.4 liblua5.4-dev libreadline-dev
-
-# Compile LuaTerm
-gcc -o luaterm luaterm.c -llua5.4 -lreadline -ldl
-
-# Install to DaemonOS
-cp luaterm /path/to/DaemonOS/
-```
-
 ---
 
 ## 🎮 **USAGE EXAMPLES**
@@ -122,57 +102,8 @@ end
 weather Berlin
 ```
 
-### Advanced Scripting
-```lua
--- Create a custom file finder
-function findfile(pattern, dir)
-  dir = dir or "."
-  for file in luaterm.walk_directory(dir) do
-    if file:match(pattern) then
-      print(file)
-    end
-  end
-end
-
--- Use it
-findfile("%.lua$", "/home/user/scripts")
-```
 
 ---
-
-## ⚙️ **CONFIGURATION**
-
-LuaTerm uses `luaterm.conf` for configuration:
-
-```lua
--- LuaTerm Configuration File
-luaterm = {
-  -- Shell behavior
-  history_size = 1000,
-  auto_complete = true,
-  case_sensitive = false,
-  
-  -- Appearance
-  prompt_format = "[%user@%host %cwd]$ ",
-  colors = {
-    prompt = "\033[1;32m",
-    error = "\033[1;31m",
-    success = "\033[1;34m",
-    reset = "\033[0m"
-  },
-  
-  -- DaemonOS integration
-  daemon_apps_path = "./",
-  auto_log = true,
-  log_file = "log.log",
-  
-  -- Advanced features
-  lua_mode_prompt = "lua> ",
-  background_jobs = true,
-  plugin_directory = "./luaterm_plugins/"
-}
-```
-
 ---
 
 ## 🔄 **UPGRADE PATH**
@@ -345,5 +276,6 @@ Special thanks to:
 - [Plugin Development](./docs/luaterm-plugins.md)
 - [Migration Guide](./docs/luaterm-migration.md)
 - [API Documentation](./docs/luaterm-api.md)
-
+**THIS WILL MAKE THIS OS GO TO 1.2.0 BETA! 🥳**
+  
 **END OF UPDATE NOTICE**
