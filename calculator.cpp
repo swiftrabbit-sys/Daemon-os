@@ -23,6 +23,10 @@ int main()
 	if(operator_sym == "*"){ cout<<n1 * n2<<endl; }
 	if(operator_sym == "a*"){cout<<sqrt(n1)<<endl;}
 	if(operator_sym == "b*"){cout<<sqrt(n2)<<endl;}
+	if(operator_sym == "%") {cout<<n1 % n2<<endl; }
+	if(operator_sym == "complex"){
+		system("python");
+	}
 
 	if(operator_sym == "exit"){
 		goto exit;	
