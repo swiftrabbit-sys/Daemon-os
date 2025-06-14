@@ -4,7 +4,7 @@
 # 📢 DaemonOS Update Notice
 ## LuaTerm Shell v2.0 - Major Release
 
-**Release Date:** June 14, 2025  
+**Release Date:** idk bro
 **Component:** LuaTerm - Lua-Powered Shell Terminal  
 **Compatibility:** DaemonOS v1.1.0+  
 **Priority:** Recommended Update
