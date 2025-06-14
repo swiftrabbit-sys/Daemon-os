@@ -5,6 +5,10 @@
 #include <cstdlib>
 #include <cstring>
 #include <cstdio>
+#include <stdio.h>
+#include <math.h>
+
+#define Update system("./update.sh")
 
 // Core system definitions
 #define DAEMON_VERSION "1.0"
