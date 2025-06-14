@@ -1,5 +1,6 @@
 # Python Text RPG
 # Authored by: Gaga Gievous
+# modified by Nomiish / swiftRabbit-sys
 # Copyright February 2021
 
 import cmd
