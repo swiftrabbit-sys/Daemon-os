@@ -3,7 +3,7 @@
 # 3D-maze
 # maze.py
 
-
+# thanks bro
 # Copyright 2014, Jackson Bahr
 
 # This program is free software: you can redistribute it and/or modify
