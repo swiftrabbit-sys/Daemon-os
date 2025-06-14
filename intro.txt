@@ -1,0 +1,51 @@
+you need to have linux mint 64x - 86x for this os
+also you need to install a lot of things in this os
+also use bash, not zsh. it kind of bugs out
+
+Core System Commands:
+•  clear - Clears the terminalscreen
+•  ls - Lists directory contents (various forms: ls, ls -al, ls -alZkqAsnbvcZ1i)
+•  date - Gets current date/time (logged to log.log)
+•  echo - Outputs text and logs messages to log.log
+•  lolcat - Colorizes text output (used with logo)
+•  neofetch - System information display
+•  lscpu - CPU information display
+ // you can also add "free"
+
+Network/Internet Commands:
+•  telnet mapscii.me - ASCII world map via telnet
+
+Development/Build Commands:
+•  g++ - GNU C++ compiler for building executables:
+•  g++ main.cpp -o main
+•  g++ bootloader.cpp -o boot 
+•  g++ calculator.cpp -o cal
+•  g++ message.cpp -o mess
+
+Python Applications:
+•  python3 - Runs Python applications:
+•  python3 imageloader.py
+•  python3 minesweeper.py
+•  python3 maze.py // its a game
+•  python3 developer_console.py
+•  python - Runs the crusader quest game
+
+File Operations:
+•  Redirection operators: >> for appending to log.log
+•  Command chaining: && for combining commands (e.g., clear && lscpu, clear && lolcat logo && neofetch)
+
+Internal DaemonOS Commands:
+The main loop in main.cpp accepts these custom commands:
+•  map, image, minesweeper, maze, game1, exit, clear, calculator, update, ls, cpu, minfetch, dev_cons
+
+Shell Scripts:
+•  ./get_all.sh - Custom directory listing script
+•  ./update.sh - Builds all C++ components
+•  ./boot - Bootloader executable
+•  ./main - Main OS executable
+•  ./cal - Calculator executable
+
+The DaemonOS essentially acts as a custom shell/interface that wraps 
+standard Linux commands and provides access to various games and utilities through a simple command-line interface.
+
+
