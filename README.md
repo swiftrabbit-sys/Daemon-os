@@ -2,7 +2,7 @@
 its some fun os, i created in linux, only linux compadibilty supported // will be updated
 
 # ps 
-
+### make sure to chmod all excutable files
 i also need to study, in 8th grade.
 
 ## update 1.0
