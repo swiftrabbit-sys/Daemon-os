@@ -32,20 +32,6 @@
 
 
 
-### 🎨 **Customization Engine**
-```lua
--- Example: Custom prompt with git status
-function luaterm.prompt()
-  local cwd = luaterm.getcwd()
-  local git_branch = luaterm.exec_capture("git branch --show-current 2>/dev/null")
-  if git_branch then
-    return string.format("[%s|%s]$ ", cwd, git_branch:gsub("\n", ""))
-  else
-    return string.format("[%s]$ ", cwd)
-  end
-end
-```
-
 ### 🌐 **DaemonOS Integration**
 - **Seamless App Launch**: All existing DaemonOS apps work natively
 - **System Call Bridge**: Direct access to DaemonOS system functions
@@ -158,33 +144,12 @@ weather Berlin
 
 ### Plugin Development
 ```lua
--- Example plugin: weather.lua
-local weather = {}
-
-function weather.get(city)
-  local handle = io.popen(string.format("curl -s 'wttr.in/%s?format=3'", city))
-  local result = handle:read("*a")
-  handle:close()
-  return result:gsub("\n", "")
-end
-
--- Register as shell command
-luaterm.register_command("weather", weather.get)
-
-return weather
+sorry no plugins, but you can make some pull requests in order to help me!
 ```
 
 ### API Reference
 ```lua
--- Core LuaTerm API
-luaterm.exec(command)           -- Execute system command
-luaterm.exec_capture(command)   -- Execute and capture output
-luaterm.getcwd()               -- Get current directory
-luaterm.chdir(path)            -- Change directory
-luaterm.history_add(command)   -- Add to command history
-luaterm.complete(partial)      -- Get completions for partial command
-luaterm.register_command(name, func) -- Register new command
-luaterm.log(message, level)    -- Write to DaemonOS log
+there is no api reference for the current version
 ```
 
 ---
@@ -208,15 +173,12 @@ luaterm.log(message, level)    -- Write to DaemonOS log
 ## 📞 **SUPPORT & COMMUNITY**
 
 ### Getting Help
-- **Documentation**: `/DaemonOS/docs/luaterm/`
-- **Man Pages**: `man luaterm`
+
 - **Interactive Help**: `:help` command in LuaTerm
-- **Examples**: `/DaemonOS/luaterm_examples/`
 
 ### Reporting Issues
 - **Bug Reports**: Create issue at DaemonOS repository
-- **Feature Requests**: Use discussion forum
-- **Security Issues**: Email security@daemonos.dev
+- **Feature Requests**: hahaha, just make pull requests
 
 ### Contributing
 - **Plugin Development**: Submit to plugin repository
@@ -229,9 +191,9 @@ luaterm.log(message, level)    -- Write to DaemonOS log
 
 Special thanks to:
 - **Lua Team**: For the amazing Lua language
-- **DaemonOS Community**: For testing and feedback
-- **Beta Testers**: Early adopters who helped refine LuaTerm
-- **Contributors**: Open source developers who submitted patches
+- **DaemonOS Community**: For testing and feedback... erm there is no team
+- **Beta Testers**: Early adopters who helped refine LuaTerm... no one did this
+- **Contributors**: Open source developers who submitted patches... like none
 
 ---
 
