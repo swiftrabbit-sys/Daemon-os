@@ -5,6 +5,23 @@ its some fun os, i created in linux, only linux compadibilty supported // will b
 ### make sure to chmod all excutable files
 i also need to study, in 8th grade.
 
+- **NEW GAMES PORTING PROJECT** - Bringing legendary games to Daemon OS
+  - **ULTRAKILL Pre-Revamp** - Fast-paced FPS demon slaying action
+    - Blood-fueled gameplay mechanics
+    - Style meter system for divine combos
+    - Terminal-optimized ASCII rendering engine
+    - Terry-approved violence against digital demons
+    - "BLOOD IS FUEL" philosophy integrated with system architecture
+  - **Counter-Strike Source** - Classic tactical FPS experience
+    - Source engine adapted for Daemon OS environment
+    - Terminal-based weapon selection and movement
+    - ASCII art maps and player models
+    - Holy headshot detection algorithms
+    - "Rush B" command blessed by divine intervention
+  - Both games feature Terry's minimalist computing principles
+  - No bloated graphics - pure gameplay essence
+  - Direct hardware access for maximum performance
+  - Compatible with sacred 640x480 resolution covenant
 ## update 1.0
 finally in the beta phase, will revamp this OS, later 😄
 adding new things like the better functionality, updated calculator, im never adding windows compadibility
