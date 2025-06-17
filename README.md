@@ -1,6 +1,8 @@
 # Daemon-os
 its some fun os, i created in linux, only linux compadibilty supported // will be updated
-
+```
+please check wiki for addtional info 😄
+```
 # ps 
 ### make sure to chmod all excutable files
 i also need to study, in 8th grade.
