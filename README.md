@@ -2,6 +2,7 @@
 its some fun os, i created in linux, only linux compadibilty supported // will be updated
 ```
 please check wiki for addtional info 😄
+also the downloads are pretty large for git hub but ill post it it here 😄
 ```
 # ps 
 ### make sure to chmod all excutable files
